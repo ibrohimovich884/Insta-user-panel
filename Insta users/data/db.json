@@ -1,0 +1,56 @@
+{
+    "users": {
+        "id": "1",
+        "userName": "ibrohimovich_o1",
+        "img": "/img/oybek.jpg",
+        "sub": [
+            {
+            "subscrip": "24",
+            "subscriber": "24"
+            }
+        ],
+        "bio": [
+        "📌 F I O: Oybek Bekmirzayev",
+        " 📌Tel: 97-884-78-64",
+        " 📌 I am a front-end developer"
+        ],
+        "posts": [
+            {
+                "image": "/img/1.jpg",
+                "likes": 7
+            },
+            {
+                "image": "/img/3.jpg",
+                "likes": 87
+            },
+            {
+                "image": "/img/6.jpg",
+                "likes": 43
+            },
+            {
+                "image": "/img/10.jpg",
+                "likes": 26
+            },
+            {
+                "image": "/img/12.jpg",
+                "likes": 15
+            },
+            {
+                "image": "/img/13.jpg",
+                "likes": 35
+            },
+            {
+                "image": "/img/27.jpg",
+                "likes": 56
+            },
+            {
+                "image": "/img/29.jpg",
+                "likes": 94
+            },
+            {
+                "image": "/img/5088.jpg",
+                "likes": 76
+            }
+        ]
+    }
+}

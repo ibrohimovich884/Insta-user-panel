@@ -1,0 +1,148 @@
+:root {
+  --bg-color: #fff;
+  --text-color: #000;
+  --grey-color: rgb(122, 122, 122);
+  --white-color: #fff;
+}
+body.dark-mode {
+  --white-color: #1e1e1e;
+  --grey-color:  rgb(122, 122, 122);
+  --black-color: #ffffff;
+  --text-color: #fff;
+  --bg-color: #121212;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+header{
+  height: 80vh;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.header-content {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding: 20px;
+  gap: 80px;
+}
+
+.user-logo {
+  border-radius: 50%;
+  border: 5px solid var(--grey-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-logo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 5px;
+  transform: rotate(-5deg);
+}
+
+.user-info {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#userName {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "italic" serif;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#subice {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  font-weight: 400;
+  color: var(--grey-color);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+span {
+  font-weight: 600;
+  color: var(--text-color);
+  font-size: 24px;
+}
+
+#buttons {
+  display: flex;
+  gap: 20px;
+}
+
+#buttons button {
+  padding: 13px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#buttons button:nth-child(1) {
+  width: 14vw;
+  color: #fff;
+  background-color: var(--grey-color);
+}
+
+#buttons button:nth-child(2) {
+  width: 12vw;
+  color: #fff;
+  background-color: var(--grey-color);
+}
+
+.bio {
+  max-width: 220px;
+}
+
+#theme{
+  background-color: var(--grey-color);
+  padding: 5px;
+  position: fixed;
+  right: 40px;
+  bottom: 80px;
+  box-shadow: 0 5px 20px var(--text-color);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#theme:hover{
+  box-shadow: 0 5px 30px var(--text-color);
+}
+#theme i{
+  color: var(--white-color);
+  font-size: 40px;
+}
+

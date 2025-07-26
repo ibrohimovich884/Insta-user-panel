@@ -1,0 +1,14 @@
+  background-color: #212328;
+  /* "Soobsheniya" tugmasi foniga o‘xshash */
+  background-color: #191C1F;
+  /* Profil tahrirlash va arxiv tugmasi foniga yaqin */
+  background-color: #121416;
+  /* Belgilangan hikoya (highlight) ramkasi ichidagi fon */
+  color: #FFFFFF;
+  /* Oq rang, lekin rasmda bu juda kam uchraydi */
+  color: #040404;
+  /* Juda quyuq kulrang yozuvlar */
+  color: #010101;
+  /* Yana qoraga yaqin yozuv soyasi */
+  color: #121212;
+  /* Quyuq kul yozuvlar (masalan, tugmalar ichidagi matnlar) */ 
